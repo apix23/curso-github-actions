@@ -1,1 +1,5 @@
-console.log("hello world from index.js");
+process.loadEnvFile()
+
+const username = process.env.USERNAME;
+
+console.log(`hello world ${username} from index.js`);
